@@ -1,0 +1,15 @@
+:root {
+  /* Primary */
+  --primary: hsl(25, 97%, 53%);
+
+  /* Neutrals */
+  --light-grey: hsl(217, 12%, 63%);
+  --medium-grey: rgb(125, 136, 153);
+
+  /* Blue */
+  --dark-blue: #252d37;
+  --very-dark-blue: #121417;
+
+  /* --dark-background: #090a0c; */
+  --dark-background: black;
+}

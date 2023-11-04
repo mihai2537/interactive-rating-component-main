@@ -1,0 +1,14 @@
+/* Below 438px */
+@media (max-width: 27.375em) {
+  html {
+    font-size: 50%;
+  }
+
+  .container {
+    padding-inline: 3rem;
+  }
+
+  .thanks {
+    padding-inline: 4.2rem;
+  }
+}

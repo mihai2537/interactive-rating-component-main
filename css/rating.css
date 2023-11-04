@@ -1,0 +1,112 @@
+.rating {
+  width: 44rem;
+  background: linear-gradient(
+    to bottom,
+    var(--dark-blue),
+    var(--very-dark-blue)
+  );
+  border-radius: 6%;
+}
+
+.question {
+  padding: 3rem;
+}
+
+.icon-box {
+  display: inline-block;
+  padding: 1.5rem;
+  border-radius: 100%;
+  text-align: center;
+  background-color: rgb(125, 136, 153, 0.1);
+  margin-bottom: 3rem;
+}
+
+.icon {
+  display: block;
+}
+/* TypeScale - Major third - Base 10 */
+
+/* 
+  15.63 / 19.53 / 24.41p / 30.52
+*/
+
+.question-title {
+  color: #fff;
+  font-size: 3.052rem;
+  margin-bottom: 1.6rem;
+}
+
+.question-text {
+  margin-bottom: 3rem;
+}
+
+.numbers {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.circle {
+  background-color: rgb(125, 136, 153, 0.15);
+  width: 5rem;
+  height: 5rem;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  cursor: pointer;
+  transition: all 200ms;
+}
+
+.circle:hover {
+  /* light grey */
+  background-color: rgb(149, 158, 172, 0.9);
+}
+
+.circle:focus {
+  background-color: var(--primary);
+}
+
+.digit {
+  color: var(--medium-grey);
+  /* font-size: 1.8rem; */
+  font-weight: 700;
+  text-align: center;
+  transition: all 200ms;
+}
+
+.active .digit,
+.circle:hover .digit {
+  color: #fff;
+}
+
+.button {
+  font-size: inherit;
+  font-family: inherit;
+  cursor: pointer;
+
+  display: block;
+  width: 100%;
+  padding: 1.2rem;
+  border: none;
+  border-radius: 5rem;
+  transition: all 200ms;
+}
+
+.button-primary {
+  background-color: var(--primary);
+  color: white;
+}
+
+.button-primary:hover {
+  background-color: #fff;
+  color: var(--primary);
+}
+
+.button-submit {
+  text-transform: uppercase;
+  letter-spacing: 1.7px;
+}
